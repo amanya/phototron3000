@@ -72,7 +72,7 @@ def process_user(uid):
     client = DropboxClient(token)
     has_more = True
 
-    while has_more:
+    while false:
         result = client.delta(cursor)
 
         for path, metadata in result['entries']:
